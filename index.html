@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космическая одиссея</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Стартовый экран -->
+    <div class="start-screen">
+        <h1>Космическая одиссея</h1>
+        <button class="start-btn">СТАРТ</button>
+    </div>
+
+    <!-- Ракета -->
+    <div class="rocket">
+        <img src="images/rocket.png" alt="Ракета">
+    </div>
+
+    <!-- Контент -->
+    <div class="content">
+        <!-- 1957: Спутник-1 -->
+        <section class="section" id="section1">
+            <h1>1957: Спутник-1</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/launch_sputnik.jpg" alt="Запуск Спутника-1">
+                    <p>Запуск ракеты Р-7 с первым спутником.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/sputnik1_in_space.jpg" alt="Спутник-1 в космосе">
+                    <p>Спутник-1 на орбите Земли.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/sputnik1_model.jpg" alt="Модель Спутника-1">
+                    <p>Модель первого искусственного спутника.</p>
+                </div>
+            </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: Спутник-1 был размером с пляжный мяч и весил всего 83,6 кг. Он передавал сигналы на Землю в течение 21 дня, пока его батареи не разрядились. За это время он совершил 1440 оборотов вокруг Земли.</p>
+            </div>
+        </section>
+
+        <!-- 1961: Юрий Гагарин -->
+        <section class="section" id="section2">
+            <h1>1961: Юрий Гагарин</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/gagarin_launch.jpg" alt="Запуск Восток-1">
+                    <p>Запуск ракеты с Юрием Гагариным.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/vostok1_in_space.jpg" alt="Восток-1 в космосе">
+                    <p>Корабль "Восток-1" на орбите.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/gagarin_landing.jpg" alt="Приземление Гагарина">
+                    <p>Юрий Гагарин после приземления.</p>
+                </div>
+            </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: Юрий Гагарин провел в космосе 108 минут. Перед стартом он сказал легендарное "Поехали!". Интересно, что Гагарин приземлился не в капсуле, а на парашюте, так как система мягкой посадки тогда ещё не была разработана.</p>
+            </div>
+        </section>
+
+        <!-- 1963: Валентина Терешкова -->
+        <section class="section" id="section3">
+            <h1>1963: Валентина Терешкова</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/tereshkova_launch.jpg" alt="Запуск Терешковой">
+                    <p>Запуск корабля "Восток-6".</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/tereshkova_in_space.jpg" alt="Терешкова сейчас">
+                    <p>Валентина Терешкова сейчас.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/tereshkova_portrait.jfif" alt="Портрет Терешковой">
+                    <p>Валентина Терешкова — первая женщина-космонавт.</p>
+                </div>
+            </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: Валентина Терешкова стала первой женщиной, побывавшей в космосе. Она провела на орбите почти трое суток, совершив 48 витков вокруг Земли. Её позывной — "Чайка".</p>
+            </div>
+        </section>
+
+        <!-- 1965: Алексей Леонов -->
+        <section class="section" id="section4">
+            <h1>1965: Алексей Леонов</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/leonov_spacewalk.jpg" alt="Выход в открытый космос">
+                    <p>Первый выход человека в открытый космос.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/leonov_portrait.jpg" alt="Портрет Леонова">
+                    <p>Алексей Леонов — космонавт-первопроходец.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/leonov_art.jpg" alt="Рисунки Леонова">
+                    <p>Рисунки Леонова, сделанные в космосе.</p>
+                </div>
+            </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: Алексей Леонов провел в открытом космосе 12 минут, но его скафандр раздулся, и он не мог вернуться в корабль. Ему пришлось стравить часть воздуха из скафандра, чтобы уменьшить его объем. Это был один из самых опасных моментов в истории космонавтики.</p>
+            </div>
+        </section>
+
+        <!-- 1969: Аполлон-11 -->
+        <section class="section" id="section5">
+            <h1>1969: Аполлон-11</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/apollo11_launch.jpg" alt="Запуск Аполлон-11">
+                    <p>Запуск ракеты "Сатурн-5".</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/moon_landing.jpg" alt="Луна">
+                    <p>Нил Армстронг на Луне.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/earth_from_moon.jpg" alt="Земля с Луны">
+                    <p>Земля, снятая с Луны.</p>
+                </div>
+            </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: Нил Армстронг стал первым человеком, ступившим на Луну. Его знаменитая фраза: "Это один маленький шаг для человека, но гигантский скачок для человечества". Аполлон-11 доставил на Землю 21,5 кг лунного грунта.</p>
+            </div>
+        </section>
+
+        <!-- 1971: Станция "Салют-1" -->
+        <section class="section" id="section6">
+            <h1>1971: Станция "Салют-1"</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/salyut1_launch.jpg" alt="Запуск Салют-1">
+                    <p>Запуск первой орбитальной станции.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/salyut1_in_space.jpg" alt="Салют-1 в космосе">
+                    <p>Станция "Салют-1" на орбите.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/salyut1_inside.jpg" alt="Внутри Салют-1">
+                    <p>Внутренний вид станции.</p>
+                </div>
+            </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: "Салют-1" стала первой в мире орбитальной станцией. Экипаж "Союз-11" провел на борту 23 дня, но погиб при возвращении на Землю из-за разгерметизации спускаемого аппарата.</p>
+            </div>
+        </section>
+
+        <!-- 1981: Шаттл "Колумбия" -->
+        <section class="section" id="section7">
+            <h1>1981: Шаттл "Колумбия"</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/columbia_launch.jpg" alt="Запуск Колумбии">
+                    <p>Первый полет шаттла.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/columbia_in_space.jpg" alt="Колумбия в космосе">
+                    <p>Шаттл на орбите.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/columbia_landing.jpg" alt="Посадка Колумбии">
+                    <p>Посадка шаттла.</p>
+                </div>
+            </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: Шаттл "Колумбия" стал первым многоразовым космическим кораблем. Он совершил 28 успешных миссий, но в 2003 году разрушился при входе в атмосферу, что привело к гибели экипажа.</p>
+            </div>
+        </section>
+
+        <!-- 1998: МКС -->
+        <section class="section" id="section8">
+            <h1>1998: МКС</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/iss_launch.jpg" alt="Запуск МКС">
+                    <p>Первый модуль МКС.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/iss_in_space.jpg" alt="МКС в космосе">
+                    <p>Международная космическая станция.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/iss_inside.jpg" alt="Внутри МКС">
+                    <p>Внутренний вид станции.</p>
+                </div>
+            </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: МКС — самый дорогой объект, созданный человечеством. Его стоимость превышает 150 миллиардов долларов. На станции постоянно живут и работают космонавты с 2000 года.</p>
+            </div>
+        </section>
+
+        <!-- 2020: SpaceX Crew Dragon -->
+        <section class="section" id="section9">
+            <h1>2020: SpaceX Crew Dragon</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/crew_dragon_launch.jpg" alt="Запуск Crew Dragon">
+                    <p>Первый пилотируемый полет.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/crew_dragon_in_space.jpg" alt="Crew Dragon в космосе">
+                    <p>Корабль на орбите.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/crew_dragon_landing.jpg" alt="Посадка Crew Dragon">
+                    <p>Посадка корабля.</p>
+                </div>
+            </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: Crew Dragon стал первым частным космическим кораблем, доставившим астронавтов на МКС. Это открыло новую эру коммерческой космонавтики.</p>
+            </div>
+        </section>
+
+        <!-- 2021: Первый полет Ingenuity на Марсе -->
+        <section class="section" id="section10">
+            <h1>2021: Ingenuity на Марсе</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/ingenuity_launch.jpg" alt="Запуск Ingenuity">
+                    <p>Ingenuity на Марсе.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/ingenuity_flying.jpg" alt="Ingenuity в полете">
+                    <p>Первый полет на Марсе.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/ingenuity_landing.jpg" alt="Ingenuity после полета">
+                    <p>Ingenuity после полета.</p>
+                </div>
+            </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: Ingenuity стал первым вертолетом, совершившим управляемый полет на другой планете. Его первый полет длился 39,1 секунды.</p>
+            </div>
+        </section>
+
+        <!-- 2024: Лунная программа Artemis -->
+        <section class="section" id="section11">
+            <h1>2024: Лунная программа Artemis 2</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/artemis_launch.jpg" alt="Запуск Artemis">
+                    <p>Запуск ракеты SLS.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/artemis_moon.jfif" alt="Лунная база">
+                    <p>Планируемая лунная база.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/artemis_astronauts.jpg" alt="Астронавты Artemis">
+                    <p>Экипаж Artemis 2.</p>
+                </div>
+            </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: Программа Artemis планирует вернуть людей на Луну к 2025 году. Впервые в истории на Луну высадится женщина.</p>
+            </div>
+        </section>
+
+        <!-- 2025: Марсианская миссия SpaceX -->
+        <section class="section" id="section12">
+            <h1>2025: Марсианская миссия SpaceX</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/starship_launch.jpg" alt="Запуск Starship">
+                    <p>Запуск Starship.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/starship_mars.jpg" alt="Starship на Марсе">
+                    <p>Планируемая посадка на Марс.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/starship_colony.jpg" alt="Колония на Марсе">
+                    <p>Планы колонизации Марса.</p>
+                </div>
+            </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: SpaceX планирует отправить первую пилотируемую миссию на Марс к 2025 году. Starship станет самым мощным космическим кораблем в истории.</p>
+            </div>
+        </section>
+    </div>
+
+
+<section class="section" id="section13">
+            <h1>Сайт реализован</h1>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/images.jfif" alt="Курмановым Владимиром учеником 4 класса МАОУ ЦДО г.Мирный">
+                    <p>Курмановым Владимиром учеником 4 класса МАОУ ЦДО г.Мирный.</p>
+                </div>
+
+
+
+                    <p></p>
+                </div>
+     </div>
+            <div class="fun-fact">
+                <i class="fas fa-lightbulb"></i>
+                <p>Интересный факт: Этот сайт создали за 2 недели :)</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
